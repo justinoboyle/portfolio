@@ -1,0 +1,10 @@
+#head-name:after {
+  content: "Justin O'Boyle"
+}
+#head-name:hover:after {
+  content: "justinjoboyle"
+}
+#head-name:hover:before {
+  content: "@";
+  color: gray;
+}
