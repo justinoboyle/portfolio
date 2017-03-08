@@ -1,9 +1,18 @@
 import React from 'react'
 
 export default class Thumbnail extends React.Component {
+  constructor() {
+    super();
+    try {
+      this.className = !!this.props.link ? "thumbnail hover" : "thumbnail";
+    }catch(e) {
+      this.className = "thumbnail"
+    }
+
+  }
   render() {
     return (
-      <div className="thumbnail">
+      <div className={!!this.props.link ? "thumbnail hover" : "thumbnail"}  onClick={() => this.click(this.props.link || "#")}>
         { this.props.image &&
           <img src={this.props.image} alt={this.props.title} />
         }
@@ -13,5 +22,9 @@ export default class Thumbnail extends React.Component {
         </div>
       </div>
     )
+  }
+  click() {
+    if(this.props.link)
+      window.open(this.props.link)
   }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/header'
 import Content from './components/content'
 
-import stylesheet from './style.scss'
+// import stylesheet from './style.css'
 
 import { container } from 'react-bootstrap'
 
@@ -12,6 +12,7 @@ import { container } from 'react-bootstrap'
 export default () =>
   <div>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
+    <link href="/static/style.css" rel="stylesheet" />
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <div className="container">
       <Header />

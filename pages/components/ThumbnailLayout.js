@@ -4,11 +4,11 @@ export default class ThumbnailLayout extends React.Component {
   render() {
     return (
       <div className="row">
-      {this.props.children.map(child =>
-        <div className="col-sm-6 col-md-4">
+      {React.Children.map(this.props.children, (child =>
+        <div className="col-md-3">
           {child}
         </div>
-      )}
+      ))}
       </div>
     )
   }

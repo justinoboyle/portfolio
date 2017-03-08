@@ -1,0 +1,17 @@
+#head-name:after {
+  content: "Justin O'Boyle"
+}
+#head-name:hover:after {
+  content: "justinjoboyle"
+}
+#head-name:hover:before {
+  content: "@";
+  color: gray;
+}
+.hover:hover {
+  cursor: pointer;
+}
+
+.indent {
+  margin-left: 20px;
+}
