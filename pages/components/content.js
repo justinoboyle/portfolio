@@ -23,7 +23,7 @@ export default () => (
     </Section>
     <Section name="Groups and Organizations">
       <ThumbnailLayout>
-        <Thumbnail subtext="Roles: Developer and Systems Engineer" link="https://nfmstudios.com/" image="/static/nfm.png" title="NFM Studios" content="Founded in the summer of 2016 with the goal is that we will take an active role in web development to help the eSports industry." />
+        <Thumbnail subtext="Roles: Developer and Systems Engineer" link="https://nfmstudios.com/" image="/static/nfm.png" title="NFM Studios" content="Founded in the summer of 2016 with the goal of taking an active role in web development to help the eSports industry." />
         <Thumbnail subtext="Roles: Developer and Staff" link="https://github.com/TCDG" image="https://avatars2.githubusercontent.com/u/20982325?v=3&s=200" title="The Collective Developers" content="The Collective Development Group was founded in 2016 as part of an initiative to develop open-source applications." />
         <Thumbnail subtext="Roles: Designer and Co-Lead" link="https://www.youtube.com/watch?v=BsljfJ-BiK8" image="/static/genesis.jpg" title="GenesisEDM / Lyriqua (inactive)" content="A YouTube channel designed to bring fresh, underground music with beautiful visuals." />
         <Thumbnail subtext="Roles: Developer and Video Producer" link="https://www.youtube.com/user/LightCraftBT" image="https://pbs.twimg.com/profile_images/555984353251966976/tEGFi-0r.png" title="LightCraft Build Team (inactive)" content="An innovative group of artists and developers creating beautiful 3D interactive worlds for users to explore using the platform of the popular video game Minecraft." />
