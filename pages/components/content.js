@@ -12,7 +12,7 @@ export default () => (
       <ThumbnailLayout>
         <Thumbnail subtext="Contributions: Lead developer" link="https://chrome.google.com/webstore/detail/ytclean-modern-youtube-th/ibnledgdeclbdgjbjlmllphepfbopnmg" image="https://lh3.googleusercontent.com/ZBMp7-i1gsqyCM5qYCSjdv4UNERu333GStdQY0OjmVYPfBZ943VRAKnoK5pqKr7ViwO9gBu_=s1280-h800-e365-rw" title="ytClean" content="A clean, modern look and feel for YouTube with over one hundred active users." />
         <Thumbnail subtext="Contributions: Developer" image="/static/staffportal.png" link="https://github.com/tcdg/staffportal" title="TCDG StaffPortal" content="A community-driven project to aid in moderating popular discussion platforms such as Discord and Slack." />
-        <Thumbnail subtext="Contributions: Lead developer" image="/static/mydiscord.png" link="https://github.com/justinoboyle/mydiscord" title="MyDiscord" content="A lightweight expansion and plugin engine which to customize the popular chat application Discord." />
+        <Thumbnail subtext="Contributions: Lead developer" image="/static/mydiscord.png" link="https://github.com/justinoboyle/mydiscord" title="MyDiscord" content="A lightweight expansion and plugin engine used to customize the popular chat application Discord." />
         <Thumbnail subtext="Contributions: Lead developer" image="/static/forwardus.png" link="https://blog.justinoboyle.com/forwardus" title="Forwardus" content="Forwardus is a multi-platform, work-in-progress application made with Electron which uses uPnP to easily forward ports and create firewall rules." />
       </ThumbnailLayout>
       <ThumbnailLayout>
