@@ -31,8 +31,8 @@ export default () => (
     </Section>
     <Section name="Recent Blog Posts">
       <ThumbnailLayout>
-        <Thumbnail title="A Simple Node Boilerplate with Babel and ES6 Support" content="Babel is a pain to setup I've created a very simple Node + Babel boilerplate without the confusing mess." />
-        <Thumbnail title="Multithreading, Node and Safe Code Evaluation" content="Three things that typically don't go together. Node is asynchronous but does not have multithread support, which means that for most things, you can write simple, concise code that doesn't block IO..." />
+        <Thumbnail link="https://blog.justinoboyle.com/node-boilerplate/" title="A Simple Node Boilerplate with Babel and ES6 Support" content="Babel is a pain to setup I've created a very simple Node + Babel boilerplate without the confusing mess." />
+        <Thumbnail link="https://blog.justinoboyle.com/multithreading-node-and-safe-code-evaluation/" title="Multithreading, Node and Safe Code Evaluation" content="Three things that typically don't go together. Node is asynchronous but does not have multithread support, which means that for most things, you can write simple, concise code that doesn't block IO..." />
       </ThumbnailLayout>
     </Section>
     <Section name="ID Tech Summer Camp">
