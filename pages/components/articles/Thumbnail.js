@@ -18,6 +18,9 @@ export default class Thumbnail extends React.Component {
         }
         <div className="caption">
           <h3>{this.props.title}</h3>
+          { this.props.subtext && 
+            <b>{this.props.subtext}</b>
+          }
           <p>{this.props.content}</p>
         </div>
       </div>
