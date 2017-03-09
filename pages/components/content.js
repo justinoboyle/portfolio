@@ -41,14 +41,14 @@ export default () => (
           <ThumbnailLayout>
             <Thumbnail link="https://github.com/justinoboyle/learn-python" image="/static/centipede.png" title="Project: Centipede game recreated in Python" />
             <Thumbnail image="/static/IDTechPython2016Thumb.png" link="/static/IDTechPython2016.pdf" title="Official Transcript" />
-            <Thumbnail image="/static/VillanovaCEUPython2016Thumb.png" link="/static/VillanovaCEUPython2016.png" title="Villanova Continuing Education Credits" />
+            <Thumbnail image="/static/VillanovaCEUPython2016Thumb.png" link="/static/VillanovaCEUPython2016.png" title="Villanova Continuing Education Units" />
           </ThumbnailLayout>
         </Section>
         <Section name="2015 – C++">
           <ThumbnailLayout>
             <Thumbnail title="Project: Text-Based Adventure Game in C++" content="An unnamed text-based adventure game, complete with an inventory and randomly generated world system." />
             <Thumbnail image="/static/IDTechCPP2015Thumb.png" link="/static/IDTechCPP2015.pdf" title="Official Transcript" />
-            <Thumbnail image="/static/VillanovaCEUCPP2015Thumb.png" link="/static/VillanovaCEUCPP2015.png" title="Villanova Continuing Education Credits" />
+            <Thumbnail image="/static/VillanovaCEUCPP2015Thumb.png" link="/static/VillanovaCEUCPP2015.png" title="Villanova Continuing Education Units" />
           </ThumbnailLayout>
         </Section>
       </Indent>
